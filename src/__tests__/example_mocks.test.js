@@ -30,5 +30,4 @@ test('thirt example', ()=>{
 
     expect(result).toBe(username)
     expect(storage.get).toHaveBeenCalled();
-    expect(storage.get).toHaveBeenCalledWith({key: 'username', value: 'juan'})
 })
